@@ -39,6 +39,8 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:testing-library/react',
+    'plugin:jest-dom/recommended',
   ],
 
   rules: {

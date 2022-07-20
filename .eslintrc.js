@@ -26,7 +26,7 @@ module.exports = {
     },
   },
 
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint', 'import', 'testing-library', 'jest-dom'],
   extends: [
     'next/core-web-vitals',
     'plugin:@typescript-eslint/recommended',
